@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(9deg, rgba(252,236,233,1) 0%, rgba(112,232,134,1) 35%, rgba(176,116,105,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -84,7 +84,8 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #7AD882 10%, #67f622 100%)'};
+
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -177,7 +178,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : '9deg, rgba(252,236,233,1) 0%, rgba(112,232,134,1) 35%, rgba(176,116,105,1) 100%'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -209,7 +210,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? '9deg, rgba(252,236,233,1) 0%, rgba(112,232,134,1) 35%, rgba(176,116,105,1) 100%' : 'linear-gradient(45deg, rgba(112,232,134,1)  0%, rgba(176,116,105,1) 100%);'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
