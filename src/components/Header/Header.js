@@ -9,25 +9,25 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{display:'flex', alignItems:"center", color: 'white', marginBottom:"20px"}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        <a style={{display:'flex', alignItems:"center", color: 'white'}}>
+          <DiCssdeck size="3rem" /><Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <NavLink style={{borderBottom:'1px solid yellow'}}>Projects</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink style={{borderBottom:'1px solid red'}}>Technologies</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <NavLink style={{borderBottom:'1px solid green'}}>About</NavLink>
         </Link>
       </li>
     </Div2>
