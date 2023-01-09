@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'ankit-k.com(My personal portfolio)',
+    description: "Hello, I am Ankit K, This is my portfolio, you can look for more information about me and my projects mentioned here, I keep updating it from time to time with skills I am learning, and projects that I am working on which are worth sharing and updating about me.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['React', 'Styles Component'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
