@@ -45,6 +45,8 @@ const Timeline = () => {
   return (
     <div>
       <Section id="about">
+      <SectionDivider />
+      
         <SectionTitle> About Me </SectionTitle>
         <SectionText>Since 2018, i have worked with a range of technologies in the field of full-stack development and Python. what started with raw html, css, bootstrap and python turtle, swiftly aligned me on the track of getting on a journey of learning related full stack techs, python, and Algorithms to build softwares that impacts lives of billion!</SectionText>
 
